@@ -67,6 +67,25 @@
         font-size: 18px;
         font-weight: 700;
       }
+      .text.bottom {
+        font-size: 15px;
+        padding: 0px 10px;
+      }
+      @media only screen and (max-width: 400px) {
+        .text {
+          font-size: 11px;
+        }
+        .block {
+          font-size: 16px;
+        }
+        .btn {
+          font-size: 16px;
+        }
+        .text.bottom {
+          font-size: 13px;
+          line-height: 1.2;
+        }
+      }
     </style>
   </head>
   <body>
@@ -89,8 +108,7 @@
             "
           >
             <p class="text" style="display: inline">
-              Email is the best way to let you know about updates, special
-              offers and more. <br />
+              Email is the best way to let you know about updates.<br />
               If you don't want to receive email from Netflix,
               <a href="#">click here to unsubscribe</a>.
             </p>
@@ -181,13 +199,13 @@
         <!-- END  row  -->
         <!-- footer row  -->
         <tr>
-          <td style="font-size: 16px;">
-            <p class="text" style="font-size: 15px; padding: 0px 10px;">
+          <td style="font-size: 16px">
+            <p class="text bottom">
               Offer expires on Friday, September 1st, 2017. Monthly membership
               fees apply after free month.
               <a href="#">Free month offer terms and details</a>.
             </p>
-            <p class="text" style="font-size: 15px; padding: 0px 10px;">
+            <p class="text bottom">
               This email has been sent to you because you created a Netflix
               account, but have not started your free trial. If you would like
               to stop receiving these emails, please
@@ -196,11 +214,13 @@
               If you need help or would like to contact us, please visit our
               <a href="#">Help Center</a>.
             </p>
-            <p class="text" style="font-size: 15px; padding: 0px 10px;">
-              This message was mailed to [example@mail.com] by Netflix. <br /> SRC:
-              00947_en_SD <br /> Use of the Netflix service and website is subject to
-              our <a href="#">Terms of Use</a> and <a href="#">Privacy Statement</a>. <br /> Netflix International
-              B.V.
+            <p class="text bottom">
+              This message was mailed to [example@mail.com] by Netflix. <br />
+              SRC: 00947_en_SD <br />
+              Use of the Netflix service and website is subject to our
+              <a href="#">Terms of Use</a> and
+              <a href="#">Privacy Statement</a>. <br />
+              Netflix International B.V.
             </p>
           </td>
         </tr>
